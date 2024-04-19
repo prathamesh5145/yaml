@@ -1,0 +1,12 @@
+apiVersion : v1
+kind : Pod
+metadata : 
+  name : janhavi
+  lablel :
+    env : test
+spec:
+  containers : 
+    - name : frontend
+      image : httpd
+      ports :
+        - containerPort : 80
