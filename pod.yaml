@@ -9,4 +9,4 @@ spec:
     - name : frontend
       image : httpd
       ports :
-        - containerPort : 80   
+        - containerPort : 80
