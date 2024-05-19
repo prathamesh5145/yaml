@@ -3,7 +3,7 @@ kind : Pod
 metadata : 
   name : janhavi
   labels :
-    env : test
+    env : test1
 spec:
   containers : 
     - name : frontend
